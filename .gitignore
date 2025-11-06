@@ -1,0 +1,141 @@
+# ══════════════════════════════════════════════
+# Credenciales y certificados AWS IoT
+# ══════════════════════════════════════════════
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+cacert.pem
+clientcert.pem
+clientkey.pem
+AmazonRootCA*.pem
+*-certificate.pem.crt
+*-private.pem.key
+*-public.pem.key
+
+# Archivos de configuración con secretos
+config.py
+credentials.py
+secrets.py
+.env
+.env.local
+.env.production
+
+# ══════════════════════════════════════════════
+# Python (ESP32)
+# ══════════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+
+# ══════════════════════════════════════════════
+# Node.js (Visualización web futura)
+# ══════════════════════════════════════════════
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ══════════════════════════════════════════════
+# IDEs y editores
+# ══════════════════════════════════════════════
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# ══════════════════════════════════════════════
+# Logs
+# ══════════════════════════════════════════════
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ══════════════════════════════════════════════
+# Build y distribución
+# ══════════════════════════════════════════════
+dist/
+build/
+*.egg-info/
+.next/
+out/
+
+# ══════════════════════════════════════════════
+# Archivos de respaldo
+# ══════════════════════════════════════════════
+*.bak
+*.backup
+*_backup.py
+*_old.py
+*.orig
+
+# ══════════════════════════════════════════════
+# Archivos temporales
+# ══════════════════════════════════════════════
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+
+# ══════════════════════════════════════════════
+# Archivos de sistema
+# ══════════════════════════════════════════════
+.directory
+desktop.ini
+$RECYCLE.BIN/
+
+# ══════════════════════════════════════════════
+# Archivos de prueba con credenciales reales
+# ══════════════════════════════════════════════
+test_real_*.py
+*_production.py
+config_prod.py
+
+# ══════════════════════════════════════════════
+# Bases de datos locales
+# ══════════════════════════════════════════════
+*.db
+*.sqlite
+*.sqlite3
+
+# ══════════════════════════════════════════════
+# Coverage reports
+# ══════════════════════════════════════════════
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
