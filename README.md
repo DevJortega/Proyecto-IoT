@@ -57,13 +57,6 @@ cd visualizacion-nube
 │   ESP32     │  MQTT  │  AWS IoT     │  Store │   DynamoDB/     │
 │  + Sensores │───────>│   Core       │───────>│   Timestream    │
 └─────────────┘  TLS   └──────────────┘        └─────────────────┘
-                                                         │
-                                                         │ Query
-                                                         v
-                                               ┌─────────────────┐
-                                               │   Dashboard     │
-                                               │   Web           │
-                                               └─────────────────┘
 ```
 
 ---
@@ -112,11 +105,9 @@ Los datos se publican en formato JSON al tópico MQTT `sensores`:
 - [x] Lectura de sensores DHT22 y MQ135
 - [x] Publicación MQTT con SSL/TLS
 - [x] Manejo de errores y reconexión
+- [x] Base de datos histórica
 - [ ] Dashboard web de visualización
 - [ ] API REST para consulta de datos
-- [ ] Base de datos histórica
-- [ ] Sistema de alertas por umbrales
-- [ ] App móvil (opcional)
 
 ---
 
@@ -131,12 +122,6 @@ Los datos se publican en formato JSON al tópico MQTT `sensores`:
 - [ ] Dashboard web básico
 - [ ] Gráficos en tiempo real
 - [ ] Almacenamiento de datos históricos
-
-### Fase 3: Mejoras 📋 (Planeado)
-- [ ] Sistema de alertas
-- [ ] Múltiples dispositivos
-- [ ] App móvil
-- [ ] Machine Learning para predicciones
 
 ---
 
