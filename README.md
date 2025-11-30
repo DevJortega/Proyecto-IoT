@@ -80,7 +80,6 @@ Visor tridimensional con **Potree** que integra nube de puntos del salón con da
 ---
 
 ## 🚀 Arquitectura del Sistema
-
 ```
 ┌─────────────────┐       ┌──────────────┐       ┌─────────────┐
 │  ESP32 + LTE    │──4G──▶│ AWS IoT Core │──────▶│  DynamoDB   │
@@ -228,22 +227,7 @@ Abre en navegador: https://iot-proyecto.duckdns.org/visor3d/
 
 ---
 
-## 📸 Capturas
-
-### Dashboard
-Visualización en tiempo real con gráficos históricos
-
-![Dashboard](https://iot-proyecto.duckdns.org/dashboard/)
-
-### Visor 3D
-Nube de puntos con marcador de sensor
-
-![Visor3D](https://iot-proyecto.duckdns.org/visor3d/)
-
----
-
 ## 🔧 Instalación Local (Dashboard)
-
 ```bash
 # Instalar dependencias
 cd dashboard-src
@@ -283,15 +267,6 @@ Este proyecto está bajo la Licencia MIT. Ver [LICENCE.md](LICENCE.md) para más
 - Nunca subas credenciales de AWS
 - Usa `.gitignore` para proteger información sensible
 - Rota certificados si fueron expuestos
-
----
-
-## 📚 Documentación Adicional
-
-- 📄 [Informe del Proyecto (PDF)](./Reto_de_comunicaciones%20(1).pdf)
-- 🔧 [Código ESP32](./Esp32/)
-- 📊 [Dashboard](./dashboard/)
-- 🎯 [Visor 3D](./visor3d/)
 
 ---
 
